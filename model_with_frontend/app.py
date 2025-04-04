@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("forest_fire_model.pkl")  # Make sure this file is in the same directory as app.py
+model = joblib.load("model_with_frontend/forest_fire_model.pkl")  # Make sure this file is in the same directory as app.py
 
 # Streamlit UI
 st.title("🔥 Forest Fire Prediction App 🔥")
